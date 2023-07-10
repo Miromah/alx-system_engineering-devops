@@ -1,2 +1,2 @@
-#!/bin/bash
-find . -mindepth 1 -type d | grep -cvE '^\./(\.|..)'
+#!/bin/bash 
+ls -d .*/ */ 2>/dev/null | wc -l
